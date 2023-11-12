@@ -1,0 +1,125 @@
+body {
+    background-color: #FAFAFA;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: light;
+    color: #8B8B8B;
+    text-align: center;
+    }
+
+h1 {
+    color:black;
+    font-size: 28px;
+    font-weight: medium;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 60px;
+    margin-block-end: 15px;
+    }
+
+.odstavec {
+    text-align: center;
+    margin:30px 20px 15px 20px
+}    
+
+section {
+    font-size: 13px;
+    font-weight: light;
+    width: 460px;
+    height: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: white;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;¨
+    
+}
+
+button {
+    width:190px;
+    height: 40px;
+    text-align: center;
+    padding:10px 30px;
+    border-radius:20px;
+    color:white;
+    border-style: none;
+}    
+
+.uvodni {
+    width:350px;
+    height: 290px;
+    margin-block-start: 60px;
+    margin-left: 75px;
+    margin-right: 75px;
+  
+}
+
+.prvni {
+    background-color: #407BFF;
+    margin-top: 40px;
+    margin-bottom: 10px; 
+
+}
+
+.druhe {
+    background-color: #8B8B8B;
+    width:220px;
+}
+
+.mapa,
+.kaktus,
+.letadlo,
+.palma,
+.destnik,
+.karavan {
+    border-style:solid;
+    margin-block-end: 10px;
+    border: 1px;
+}
+    
+.text  {
+    padding-top:30px;
+    padding-bottom:20px;
+    text-align: left;
+
+}
+
+.obrazek {
+    float:left;
+    padding:20px 40px 20px 20px;
+}
+
+@media screen and (min-width: 640px) {
+
+    .uvodni{
+        width: 400px;
+        height: 332px;
+        margin-top: 60px;
+        margin-left:185px;
+        margin-right: 185px;
+    }
+
+    h1{
+        margin-top:30px;
+    }
+
+   .tlacitko {
+    display:flex;
+    flex-wrap: nowrap;
+    margin-left: 165px;
+    
+   }
+
+
+    
+    
+}
