@@ -117,8 +117,16 @@ button {
     flex-wrap: nowrap;
     margin-left: 165px;
     
+   .kontejnertlacitko {
+        display: block;
+        
+    }
    }
 
+   @media  screen and(min-width: 1100px) {
+
+    
+   }
 
     
     
