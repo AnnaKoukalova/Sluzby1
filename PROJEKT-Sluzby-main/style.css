@@ -122,10 +122,19 @@ button {
 
    .kontejnert {
     display:flex;
-    flex-wrap: wrap;
+    flex-wrap:no-wrap;
     margin-left: 165px;
+    margin-right:165px;
+    justify-content:space-between;
    }
   
+    .prvni,
+    .druhe {
+       margin-top:40px;
+       margin-bottom: 80px;
+
+    }
+
     h2{
       font-style: normal;
       font-weight:medium ;
@@ -153,10 +162,15 @@ button {
         
         border-radius: 10px;
         box-shadow: 0px 4px 6px #407BFF1F;
+        background: padding-box;
 
     }
 
    @media  screen and (min-width: 1100px) {
+
+    .jednicka{
+        display:flex;
+    }
 
     
    }
