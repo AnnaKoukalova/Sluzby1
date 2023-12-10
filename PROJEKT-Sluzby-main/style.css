@@ -191,7 +191,27 @@ button {
 
     }
     
-   
+   .uvodni{
+    width: 425px;
+    height: 355px;
+    margin-top: 60px;
+    margin-right: 110px;
+    margin-left: 95px;
+    margin-bottom: 120px;
+   }
+
+   .odstavec{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 80px; 
+   }
+
+   .ctyri {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
+   }
     
    
 
